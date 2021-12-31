@@ -46,7 +46,7 @@ async function mappingWeather(inputValue) {
       weather.setAttribute("class", "weather cool");
     }
     if (temp < 10) {
-      weather. ;
+      weather.setAttribute("class", "weather snow");
     }
   } else {
     dataApp.classList.add("hidden");
