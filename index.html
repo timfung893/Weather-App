@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
+    "
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="weather">
+        <input type="text" placeholder="type a city name..." class="search" />
+        <div class="dataApp hidden">
+          <div class="citySelected">
+            <h1>
+              <span class="city"></span>
+              <span class="country"></span>
+            </h1>
+            <div class="current-time">
+              <span class="date"></span>
+            </div>
+          </div>
+          <div class="degree">
+            <span class="value"></span>
+          </div>
+          <div class="weather-state">
+            <span></span>
+          </div>
+          <div class="extra-info">
+            <div class="visibility">
+              <i class="far fa-eye"></i>
+              <span></span>
+            </div>
+            <div class="wind">
+              <i class="fas fa-wind"></i>
+              <span></span>
+            </div>
+            <div class="humidity">
+              <i class="fas fa-tint"></i>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="show-err">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
