@@ -13,7 +13,7 @@ const showErr = document.querySelector(".show-err");
 
 // call api
 async function mappingWeather(inputValue) {
-  let apiURL = `http://api.openweathermap.org/data/2.5/weather?q=
+  let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=
   ${inputValue}&appid=6ca804c72240fb8686f505d10e637010`;
   let data = await fetch(apiURL).then((res) => res.json());
   // if ok
