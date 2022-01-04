@@ -20,7 +20,7 @@ body {
 .weather {
   padding: 30px 20px;
   background: linear-gradient(to top, snow, rgba(153, 152, 152, 0.5)) no-repeat center/cover;
-  background-image: url("./image/blue arc weather background.jpg");
+  background-image: url("./image/blue background.jpg");
   height: 70vh;
   border-radius: 10px;
 }
