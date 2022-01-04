@@ -59,8 +59,11 @@ async function mappingWeather(inputValue) {
 
 // start calling api on mouse enter
 search.addEventListener("keypress", function (e) {
-  if (e.code === "Enter") {
+  if (e.keyCode == 13) {
     let inputValue = search.value.trim();
     mappingWeather(inputValue);
   }
 });
+// search.addEventListener("keypress", function (e) {
+//   console.log(e);
+// });
